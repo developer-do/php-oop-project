@@ -107,7 +107,7 @@ $e = new E();
 // var_dump($e->getClassName());
 
 /**
- * Constants
+ * Instance
  */
 $d = new D();
 var_dump($d instanceof A);
