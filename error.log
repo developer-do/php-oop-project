@@ -11,3 +11,9 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/dev-do/lang/Basics/Anonymous/index.php on line 25" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Basics/Anonymous/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/19 00:05:47 [error] 32140#32140: *18113 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'B' not found in /home/dev-do/lang/Static/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Static/index.php on line 32" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Static/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/19 00:06:39 [error] 32140#32140: *18113 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: message in /home/dev-do/lang/Static/index.php on line 36
+PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Static/index.php on line 36" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Static/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
