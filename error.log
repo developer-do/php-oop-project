@@ -17,3 +17,92 @@ Stack trace:
   thrown in /home/dev-do/lang/Static/index.php on line 32" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Static/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
 2020/06/19 00:06:39 [error] 32140#32140: *18113 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: message in /home/dev-do/lang/Static/index.php on line 36
 PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Static/index.php on line 36" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Static/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:09:28 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: public in /home/dev-do/lang/Inheritance/Visibility/index.php on line 16
+PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Inheritance/Visibility/index.php on line 16
+PHP message: PHP Notice:  Undefined variable: protected in /home/dev-do/lang/Inheritance/Visibility/index.php on line 17
+PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Inheritance/Visibility/index.php on line 17
+PHP message: PHP Notice:  Undefined variable: private in /home/dev-do/lang/Inheritance/Visibility/index.php on line 18
+PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Inheritance/Visibility/index.php on line 18" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:09:28 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: public in /home/dev-do/lang/Inheritance/Visibility/index.php on line 16
+PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Inheritance/Visibility/index.php on line 16
+PHP message: PHP Notice:  Undefined variable: protected in /home/dev-do/lang/Inheritance/Visibility/index.php on line 17
+PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Inheritance/Visibility/index.php on line 17
+PHP message: PHP Notice:  Undefined variable: private in /home/dev-do/lang/Inheritance/Visibility/index.php on line 18
+PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Inheritance/Visibility/index.php on line 18" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:09:35 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: public in /home/dev-do/lang/Inheritance/Visibility/index.php on line 16
+PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Inheritance/Visibility/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:09:36 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: public in /home/dev-do/lang/Inheritance/Visibility/index.php on line 16
+PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Inheritance/Visibility/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:09:57 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: public in /home/dev-do/lang/Inheritance/Visibility/index.php on line 16
+PHP message: PHP Notice:  Undefined property: A::$ in /home/dev-do/lang/Inheritance/Visibility/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:10:14 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 17" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:10:15 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 17" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:10:15 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 17" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:10:32 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:10:32 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:10:33 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:10:38 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:10:42 [error] 32140#32140: *25942 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:12:39 [error] 32140#32140: *25978 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:12:40 [error] 32140#32140: *25978 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:12:40 [error] 32140#32140: *25978 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:12:41 [error] 32140#32140: *25978 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:12:41 [error] 32140#32140: *25978 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:12:45 [error] 32140#32140: *25978 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 21" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:13:07 [error] 32140#32140: *25978 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access protected property A::$protected in /home/dev-do/lang/Inheritance/Visibility/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 26" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:18:39 [error] 32140#32140: *26000 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot call constructor in /home/dev-do/lang/Inheritance/Visibility/index.php:40
+Stack trace:
+#0 /home/dev-do/lang/Inheritance/Visibility/index.php(46): B->__construct()
+#1 /home/dev-do/lang/Inheritance/Visibility/index.php(52): B::getInstance()
+#2 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 40" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:19:42 [error] 32140#32140: *26000 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined property: B::$private in /home/dev-do/lang/Inheritance/Visibility/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/20 22:36:55 [error] 32140#32140: *26066 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to private B::__construct() from invalid context in /home/dev-do/lang/Inheritance/Visibility/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/Inheritance/Visibility/index.php on line 55" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Inheritance/Visibility/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
