@@ -125,3 +125,9 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/dev-do/lang/Abstraction/Trait/index.php on line 52" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Abstraction/Trait/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/21 13:29:29 [error] 32177#32177: *28699 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined method A::foo() in /home/dev-do/lang/MagicMethods/Method/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/MagicMethods/Method/index.php on line 14" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/MagicMethods/Method/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/21 21:19:42 [error] 32177#32177: *30133 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot redeclare A::foo() in /home/dev-do/lang/MagicMethods/Method/index.php on line 24" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/MagicMethods/Method/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/21 21:19:48 [error] 32177#32177: *30133 FastCGI sent in stderr: "PHP message: PHP Deprecated:  Non-static method A::foo() should not be called statically in /home/dev-do/lang/MagicMethods/Method/index.php on line 45" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/MagicMethods/Method/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
