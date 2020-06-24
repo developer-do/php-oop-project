@@ -308,3 +308,114 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/dev-do/lang/Generators/Iterators/index.php on line 43" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/Generators/Iterators/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:19:44 [error] 32177#32177: *42759 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:19:44 [error] 32177#32177: *42759 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:19:48 [error] 32177#32177: *42759 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:19:48 [error] 32177#32177: *42759 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:43:34 [error] 32177#32177: *42828 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:43:35 [error] 32177#32177: *42828 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:43:55 [error] 32177#32177: *42828 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:43:55 [error] 32177#32177: *42828 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:43:55 [error] 32177#32177: *42828 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:44:13 [error] 32177#32177: *42828 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:44:13 [error] 32177#32177: *42828 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: myclass in /home/dev-do/lang/References/Syntax/index.php on line 46
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/dev-do/lang/References/Syntax/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/Syntax/index.php on line 46" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/Syntax/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:50:57 [error] 32177#32177: *42866 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:50:57 [error] 32177#32177: *42866 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:51:00 [error] 32177#32177: *42866 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:51:05 [error] 32177#32177: *42866 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:51:55 [error] 32177#32177: *42866 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:51:56 [error] 32177#32177: *42866 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:52:22 [error] 32177#32177: *42866 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:54:05 [error] 32177#32177: *42882 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 16" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:54:53 [error] 32177#32177: *42882 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 17" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:54:54 [error] 32177#32177: *42882 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 17" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:58:32 [error] 32177#32177: *42898 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 17" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:58:33 [error] 32177#32177: *42898 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 17" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:58:47 [error] 32177#32177: *42898 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 22" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/24 23:58:48 [error] 32177#32177: *42898 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'WeakReference' not found in /home/dev-do/lang/References/WeakReference/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/lang/References/WeakReference/index.php on line 22" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /lang/References/WeakReference/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
