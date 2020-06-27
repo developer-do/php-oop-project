@@ -495,3 +495,113 @@ Stack trace:
 2020/06/27 00:59:37 [error] 32177#32177: *51278 FastCGI sent in stderr: "PHP message: PHP Warning:  is_a() expects at least 2 parameters, 0 given in /home/dev-do/functions/Classes/1/index.php on line 80" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/Classes/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
 2020/06/27 00:59:40 [error] 32177#32177: *51278 FastCGI sent in stderr: "PHP message: PHP Warning:  is_a() expects at least 2 parameters, 0 given in /home/dev-do/functions/Classes/1/index.php on line 80" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/Classes/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
 2020/06/27 01:00:12 [error] 32177#32177: *51278 FastCGI sent in stderr: "PHP message: PHP Warning:  is_a() expects at least 2 parameters, 0 given in /home/dev-do/functions/Classes/1/index.php on line 79" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/Classes/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 01:10:22 [error] 32177#32177: *51315 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone (Asiz/Seoul) in /home/dev-do/functions/DateTime/1/index.php:7
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(7): DateTimeZone->__construct('Asiz/Seoul')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 7" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 01:10:59 [error] 32177#32177: *51315 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone (Asiz/Seoul) in /home/dev-do/functions/DateTime/1/index.php:7
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(7): DateTimeZone->__construct('Asiz/Seoul')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 7" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 01:16:17 [error] 32177#32177: *51337 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: da in /home/dev-do/functions/DateTime/1/index.php on line 10
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function format() on boolean in /home/dev-do/functions/DateTime/1/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 12" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 01:16:23 [error] 32177#32177: *51337 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to a member function format() on boolean in /home/dev-do/functions/DateTime/1/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 12" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 01:16:42 [error] 32177#32177: *51337 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to a member function format() on boolean in /home/dev-do/functions/DateTime/1/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 12" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 01:16:50 [error] 32177#32177: *51337 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to a member function format() on boolean in /home/dev-do/functions/DateTime/1/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 12" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 01:17:13 [error] 32177#32177: *51337 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to a member function format() on boolean in /home/dev-do/functions/DateTime/1/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 12" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 01:17:14 [error] 32177#32177: *51337 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to a member function format() on boolean in /home/dev-do/functions/DateTime/1/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 12" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 01:17:14 [error] 32177#32177: *51337 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to a member function format() on boolean in /home/dev-do/functions/DateTime/1/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 12" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 01:19:56 [error] 32177#32177: *51337 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')' in /home/dev-do/functions/DateTime/1/index.php on line 19" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:06 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D1H) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D1H')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:25 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:26 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:27 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:27 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:27 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:27 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:28 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:28 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:28 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:28 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:28 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:28 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P3D2W) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P3D2W')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
+2020/06/27 10:44:48 [error] 32177#32177: *52909 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P1Y2M5W3D4H) in /home/dev-do/functions/DateTime/1/index.php:29
+Stack trace:
+#0 /home/dev-do/functions/DateTime/1/index.php(29): DateInterval->__construct('P1Y2M5W3D4H')
+#1 {main}
+  thrown in /home/dev-do/functions/DateTime/1/index.php on line 29" while reading response header from upstream, client: 14.5.163.109, server: dev-do.co.kr, request: "GET /functions/DateTime/1/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "dev-do.co.kr"
